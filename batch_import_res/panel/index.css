@@ -1,0 +1,245 @@
+:host { margin: 5px; }
+h2 { color: #f90; }
+.title ,.importCon{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.spaceBt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.log {
+    margin-top: 20px;
+}
+.logCon {
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #252525;
+
+}
+.area {
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0px 0px 0px 0px;
+    color: #f90;
+    background-color: #252525;
+    outline: none;
+    width: 100%;
+    resize: none;
+}
+.btn {
+    margin-left: 15px;
+}
+.con {
+    /* margin-bottom: 20px; */
+    padding: 5px 5px 5px 5px;
+}
+.text {
+    width: 150px;
+}
+.importCon {
+    margin-bottom: 20px;
+}
+
+
+/** export  */
+@import url("font-awesome.min.css");
+
+h3 {
+    padding: 10px 15px;
+
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+    border-bottom: 1px solid #656566;
+
+    font-size: 18px;
+    font-family: '微软雅黑', "Microsoft YaHei";
+}
+
+.title {
+    margin: auto;
+    height: 30px;
+}
+
+.icon {
+    margin-left: 2px;
+    margin-right: 5px;
+    height: 18px;
+    width: 18px;
+}
+
+.asset-name {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.asset-scene {
+    margin-top: auto;
+    margin-bottom: auto;
+
+    width: 150px;
+}
+
+.btn-brower {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.btn-clear {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.btn-selectAll {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.btn-foldedAll {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.btn-refresh {
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 55%;
+    width: 80px;
+}
+
+.btn-export {
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 76%;
+    width: 80px;
+}
+
+/* ui-box-container {
+    background: #333;
+
+    min-height: 320px;
+    max-height: 320px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+} */
+
+footer {
+    margin: auto;
+
+    max-width: 100%;
+    min-height: 50px;
+}
+
+.item {
+    height: 5%;
+    margin-left: 27px;
+    transition: transform 0.1s;
+    transform: scale(1)
+}
+
+.item:hover {
+    color: #eeede2;
+    background-color: #a29494;
+    /*transform: scale(1.05)*/
+}
+
+.item-content {
+    margin-left: 22px;
+}
+
+.item-checkbox {
+    margin-top: auto;
+    margin-right: 3.5px;
+    margin-bottom: auto;
+}
+
+.item-img {
+    margin-top: auto;
+    margin-bottom: auto;
+
+    margin-left: 2px;
+
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.item-name {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+
+    white-space: nowrap;
+    height: 16px;
+
+    color: #aaa;
+    cursor: default;
+
+    margin-top: 2px;
+
+    /*color: rgba(255,255,255,.25)*/
+}
+
+.wrapper:hover {
+    color: #eeede2;
+    background-color: #a29494;
+}
+
+.foldIcon {
+    flex: none;
+
+    width: 12px;
+    height: 6px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+    cursor: pointer;
+    text-align: center;
+
+    visibility: visible;
+    transform: rotate(-90deg);
+
+}
+.foldEx {
+    flex: none;
+
+    width: 12px;
+    height: 6px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+    cursor: pointer;
+    text-align: center;
+
+    visibility: visible;
+    animation: foldFram 1s liner normal;
+    -moz-animation: foldFram 1s liner normal;
+}
+@keyframes foldFram {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
